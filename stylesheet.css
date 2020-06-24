@@ -10,7 +10,7 @@ body {
 .top-wrapper {
   height:200px;
   width:1400px;
-  margin:0 auto;
+  padding-left:200px;
   border-top:3px solid #ff0000;
   border-bottom:3px solid #ff0000;
 }
@@ -18,13 +18,13 @@ body {
 .main-wrapper {
   height:400px;
   width:1400px;
-  margin:0 auto;
+  padding-left:200px;
 }
 
 .down-wrapper {
   height:200px;
   width:1400px;
-  margin:0 auto;
+  padding-left:200px;
 }
 
 .container {
