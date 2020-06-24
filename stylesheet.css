@@ -9,14 +9,19 @@ body {
 
 .top-wrapper {
   height:400px;
+  width:1200px;
+  border-top:3px solid #ff0000;
+  border-bottom:3px solid #ff0000;
 }
 
 .main-wrapper {
-  height:700px;
+  height:400px;
+  width:1200px;
 }
 
 .down-wrapper {
   height:200px;
+  width:1200px;
 }
 
 .container {
@@ -44,6 +49,7 @@ body {
 .down-left li {
   list-style:none;
   background-color:green;
+  padding-right:10px;
 }
 
 .down-center h2 {
@@ -55,6 +61,7 @@ body {
   color:orange;
   font-size:26px;
 }
+
 
 
 
