@@ -8,23 +8,24 @@ body {
 }
 
 .top-wrapper {
-  border:3px solid black;
-  margin-left:200px;
+  border-top:3px solid black;
+  border-bottom:3px solid black;
+  margin-left:100px;
   height:250px;
-  width:1400px;
+  width:1300px;
   
 }
 
 .main-wrapper {
   padding-left:200px;
   height:400px;
-  width:1400px;
+  width:1300px;
 }
 
 .down-wrapper {
   padding-left:200px;
   height:200px;
-  width:1400px;
+  width:1300px;
 }
 
 .container {
