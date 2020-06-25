@@ -65,7 +65,7 @@ body {
 .down-left {
  float:left; 
 }
-.down-left li {
+.down-left ul {
   list-style:none;
   background-color:green;
   padding-left:100px;
