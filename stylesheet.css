@@ -49,6 +49,7 @@ body {
  border-bottom:2px solid black;
 }
 .main-left {
+  float:left;
   font-size:14px;
 }
 
@@ -63,6 +64,7 @@ body {
 }
 
 .down-left li {
+  float:left;
   list-style:none;
   background-color:green;
   margin-right:20px;
