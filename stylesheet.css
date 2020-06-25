@@ -56,18 +56,19 @@ body {
 .main-center img {
   height:200px;
   width:650px;
-  margin:0 auto;
 }
 
 .main-right {
   float:right;
 }
 
+.down-left {
+ float:left; 
+}
 .down-left li {
-  float:left;
   list-style:none;
   background-color:green;
-  margin-right:20px;
+  padding-left:100px;
 }
 
 .down-center h2 {
