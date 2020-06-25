@@ -44,17 +44,16 @@ body {
   font-size:32px;
 }
 
+.top {
+ border-top:2px solid black;
+ border-bottom:2px solid black;
+}
 .main-left {
-  float:left;
   font-size:14px;
 }
 
 .main-right {
   float:right;
-}
-
-.down-left {
-  float:left;
 }
 
 .down-left li {
@@ -72,6 +71,7 @@ body {
   color:orange;
   font-size:26px;
   margin-left:100px;
+  font-weight:normal;
 }
 
 
