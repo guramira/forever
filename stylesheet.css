@@ -52,6 +52,12 @@ body {
   font-size:14px;
 }
 
+.main-center img {
+  height:200px;
+  width:650px;
+  margin:0 auto;
+}
+
 .main-right {
   float:right;
 }
