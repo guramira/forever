@@ -72,7 +72,7 @@ header {
   height:700px;
   width:1300px;
   margin:0 auto;
-  background-image:url(/image/numazu.gif);
+  background-image:url(numazu.gif);
   background-size:cover;
   z-index:0;
   padding-top:60px;
@@ -97,7 +97,7 @@ header {
   width:1300px;
   margin:0 auto;
   height:900px;
-  background-image:url(/image/leaf.jpg);
+  background-image:url(leaf.jpg);
   background-size:cover;
   z-index:0;
 }
@@ -132,7 +132,7 @@ header {
   width:1300px;
   height:1000px;
   margin:0 auto;
-  background-image:url(/image/crescent.jpg);
+  background-image:url(crescent.jpg);
   background-size:cover;
 }
 
@@ -176,7 +176,7 @@ header {
   width:1300px;
   height:400px;
   margin:0 auto;
-  background-image:url(/image/hinode.jpg);
+  background-image:url(hinode.jpg);
   background-size:cover;
   padding-top:50px;
   z-index:0;
