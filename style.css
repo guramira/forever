@@ -9,7 +9,7 @@ html,body{
 header {
   width:80%;
   height:110px;
-  margin:1em auto;
+  margin:3em auto;
 }
 
 .top-bx {
@@ -154,7 +154,7 @@ footer {
   height:120px;
   width:390px;
   background-color: silver;
-  margin: 1em auto;
+  margin: 2em auto;
   border-radius: 25px;
   display: flex;
   flex-direction: row;
