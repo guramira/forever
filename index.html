@@ -2,75 +2,99 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>ジャグラー</title>
+  <title>webアプリ</title>
   <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
-  <link rel="stylesheet" href="style.css" type="text/css">
+  <link rel="stylesheet" href="../public/css/portfolio.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Noto+Sans+JP:400,700" rel="stylesheet">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
 <script type="text/javascript" src="jquery.min.js"></script>
 <script type="text/javascript">
 <!--
 $(function() {
-  $(".01").click(function(){
-    $(".seven-img").show();
-    $(".go1").fadeOut();
+  $(".ham-wrap").on('click',function(){
+    $(".menu").css("right","0");
   })
-  $(".02").click(function(){
-    $(".bar1").show();
-    $(".go2").fadeOut();
-  })
-  $(".03").click(function(){
-    $(".bar2").show();
-    $(".gogo-ranp").fadeIn();
-    $(".go3").fadeOut();
+  $(".ham-close").on('click',function(){
+    $(".menu").css("right","-800px");
   })
 });
 //-->
 </script>
-  <header>
-    <div class="top-bx">
-      <div class="top-item"></div>
-      <div class="top-item"></div>
-      <div class="top-item"></div>
-      <div class="top-item"></div>
-      <div class="top-item"></div>
+<header>
+  <i class="fas fa-level-up-alt fwari"></i>
+  <a class="ham-wrap">
+    <span></span>
+    <span></span>
+    <span></span>
+  </a>
+  <div class="menu">
+    <div class="ham-close">
+      <span></span>
     </div>
-    <div class="middle-bx">
-      <div class="middle-item">★</div>
-      <div class="middle-item center">★</div>
-      <div class="middle-item">★</div>
+    <ul>
+      <li><a href="#section-1">ホーム</a></li>
+      <li><a href="#section-2">自己紹介</a></li>
+      <li><a href="#section-3">スキル</a></li>
+      <li><a href="#section-4">今後</a></li>
+      <li><a href="#section-5">連絡先</a></li>
+    </ul>
+  </div>
+</header>
+<section class="top-wrapper" id="section-1">
+  <h1>My portfolio</h1>
+</section>
+<section class="second-wrap" id="section-2">
+  <h2 class="section-title">~About me~</h2>
+  <div class="intro-wrap">
+    <img id="my-photo" src="https://1.bp.blogspot.com/-jlZlCg-8FAM/Xub_u8HTD1I/AAAAAAABZis/ZhUI05AZBEQpVinedZ6Xy-eIucmNuY2SQCNcBGAsYHQ/s1600/pose_pien_uruuru_man.png">
+    <div class="explain-wrap">
+      <p><span>name</span> : Towa Ueno</p>
+      <p><span>age</span> : 21</p>
+      <p><span>occupation</span> : student</p>
+      <p><span>hobby</span> : tennis</p>
+      <p><span>food</span> : meat</p>
     </div>
-    <div class="bottom-item"></div>
-  </header>
-  <section class="main-container">
-    <div class="reel">
-      <img class="seven-img" src="http://juggler.jp.net/wp-content/uploads/2013/11/7-200x200.jpg">
+  </div>
+</section>
+<section class="third-wrap" id="section-3">
+  <h2 class="section-title">~Skills~</h2>
+  <div class="skill-wrap">
+    <div class="skill-item">
+      <i class="fab fa-css3-alt" id="css"></i>
+      <h3>HTML&CSS</h3>
+      <p>基礎ならわかります。</p>
     </div>
-    <div class="reel">
-      <p class="black-bar bar1">BAR</p>
-      <p class="black-bar bar1">BAR</p>
+    <div class="skill-item">
+      <i class="fab fa-js-square" id="JS"></i>
+      <h3>Javascript (jquery)</h3>
+      <p>基礎も危ういです。</p>
     </div>
-    <div class="reel">
-      <p class="black-bar bar2">BAR</p>
-      <p class="black-bar bar2">BAR</p>
+    <div class="skill-item">
+      <i class="fab fa-python" id="python"></i>
+      <h3>Python</h3>
+      <p>簡単なコードなら見ないで書けます。</p>
     </div>
-  </section>
-  <section class="sub-container">
-    <div class="peka-zone">
-      <img class="gogo-ranp" src="https://cocopachi.com/photoimg/bbs/big/120412.jpg">
+    <div class="skill-item">
+      <i class="fas fa-user-edit" id="eng"></i>
+      <h3>English</h3>
+      <p>中学生、高校生レベルなら話せます。</p>
     </div>
-  </section>
-  <footer>
-    <div class="btn 01">
-      <p class="go1">Go!!</p>
-    </div>
-    <div class="btn 02">
-      <p class="go2">Go!!</p>
-    </div>
-    <div class="btn 03">
-      <p class="go3">Go!!</p>
-    </div>
-  </footer>
+  </div>
+</section>
+<section class="fourth-wrap" id="section-4">
+  <h3 class="section-title">~今後の活動~</h3>
+  <img id="yukidaruma" src="https://season-freeillust.com/img/winter-illust/21.png">
+  <div class="sentence">
+    <ul>
+      <li>とりあえず就職先を探す</li>
+      <li>ポートフォリオの質を上げる</li>
+      <li>筋トレをする</li>
+      <li>散歩をする</li>
+      <li>お金を使う</li>
+    </ul>
+  </div>
+</section>
 </body>
 </html>
-
