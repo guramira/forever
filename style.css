@@ -89,7 +89,7 @@ header{
   background-color: black;
   position:fixed;
   transition: 0.5s all;
-  right:-800px;
+  right:-1200px;
   z-index: 20;
   background-image: url(https://www.greenwich.co.jp/wp-content/uploads/2013/12/snow1.png);
   animation: fall-snow 100s linear infinite ;
