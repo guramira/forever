@@ -225,6 +225,7 @@ header{
 .second-wrap{
   height:100vh;
   width:100%;
+  padding-bottom:30px;
   background-image:url(https://www.atpress.ne.jp/releases/198296/img_198296_1.jpg);
   background-position: center;
   background-size: cover;
