@@ -348,7 +348,8 @@ header{
 }
 
 .fourth-wrap{
-  height:100vh;
+  height:auto;
+  padding-bottom: 30px;
   width:100%;
   background-color: black;
   position: relative;
@@ -452,7 +453,8 @@ header{
     font-size: 60px;
   }
   .second-wrap{
-    height:50vh;
+    padding-bottom:20px;
+    height:auto;
   }
   .section-title{
     font-size:40px;
@@ -493,5 +495,20 @@ header{
   .sentence > ul > li{
     font-size: 30px;
     margin:50px 0;
+  }
+  #css:active{
+    color:red;
+  }
+
+  #JS:active{
+    color:green;
+  }
+
+  #python:active{
+    color:blue;
+  }
+
+  #eng:active{
+    color:yellow;
   }
 }
