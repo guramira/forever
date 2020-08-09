@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title>webアプリ</title>
   <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
-  <link rel="stylesheet" href="style.css" type="text/css">
+  <link rel="stylesheet" href="../public/css/portfolio.css" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Noto+Sans+JP:400,700" rel="stylesheet">
   <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
@@ -17,13 +17,31 @@ $(function() {
     $(".menu").css("right","0");
   })
   $(".ham-close").on('click',function(){
-    $(".menu").css("right","-2000px");
+    $(".menu").css("right","-800px");
   })
+  $(window).scroll(function(){
+    $(".skill-wrap").each(function(){
+      var elemPos = $(this).offset().top;
+      var scroll = $(window).scrollTop();
+      var windowHeight = $(window).height();
+      if (scroll > elemPos - windowHeight + 200){
+        $(".skill-item").css("opacity",1);
+        $(".skill-item").css("transform","translate(0,0)");
+      }
+    });
+    $(".second-wrap").each(function(){
+      var elemPos = $(this).offset().top;
+      var scroll = $(window).scrollTop();
+      var windowHeight = $(window).height();
+      if (scroll > elemPos - windowHeight + 400){
+        $(".intro-wrap").css("transform","translate(0,0)");
+      }
+    });
+  });
 });
 //-->
 </script>
 <header>
-  <i class="fas fa-level-up-alt fwari"></i>
   <a class="ham-wrap">
     <span></span>
     <span></span>
