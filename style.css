@@ -16,36 +16,6 @@ header{
   position: fixed;
 }
 
-.fwari{
-  padding:10px;
-  font-size: 50px;
-  color:white;
-  cursor: pointer;
-  position: fixed;
-  animation: fwari ease-in-out 1s infinite alternate;
-  -webkit-animation: fwari ease-in-out 1s infinite alternate;
-  -moz-animation: fwari ease-in-out 1s infinite alternate;
-}
-
-.fwari:hover{
-  animation:none;
-  color:black;
-}
-
-@keyframes fwari{
-    0%   { transform:translate(0%, 0%); }
-    100% { transform:translate(0%, -10px); }
-}
-@-webkit-keyframes fwari{
-    0%   { -webkit-transform:translate(0%, 0%); }
-    100% { -webkit-transform:translate(0%, -10px); }
-}
-
-@-moz-keyframes fwari{
-    0%   { -moz-transform:translate(0%, 0%); }
-    100% { -moz-transform:translate(0%, -10px); }
-}
-
 
 .ham-wrap{
   display: inline-block;
@@ -225,7 +195,6 @@ header{
 .second-wrap{
   height:100vh;
   width:100%;
-  padding-bottom:30px;
   background-image:url(https://www.atpress.ne.jp/releases/198296/img_198296_1.jpg);
   background-position: center;
   background-size: cover;
@@ -246,9 +215,10 @@ header{
   max-width:800px;
   height:400px;
   background-color: rgba(255,255,255,0.5);
-  margin: 0 auto;
-  margin-top:50px;
+  margin: 30px auto;
   border-radius: 20px;
+  transform: translate(-1000px,0);
+  transition: 1s all;
 }
 
 #my-photo{
@@ -312,6 +282,9 @@ header{
   margin:40px 0;
   border-radius: 25px;
   background-color: rgba(0,0,0,0.5);
+  opacity:0;
+  transition: 0.5s all;
+  transform: translate(0,50px);
 }
 
 .skill-item h3, .skill-item p{
@@ -350,8 +323,8 @@ header{
 
 .fourth-wrap{
   height:auto;
-  padding-bottom: 30px;
   width:100%;
+  padding-bottom:30px;
   background-color: black;
   position: relative;
 }
@@ -497,19 +470,19 @@ header{
     font-size: 30px;
     margin:50px 0;
   }
-  #css:active{
+  #css{
     color:red;
   }
 
-  #JS:active{
+  #JS{
     color:green;
   }
 
-  #python:active{
+  #python{
     color:blue;
   }
 
-  #eng:active{
+  #eng{
     color:yellow;
   }
 }
